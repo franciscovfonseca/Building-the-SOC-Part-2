@@ -18,7 +18,7 @@ Open Microsoft Defender for Cloud:
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+![azure portal](https://github.com/user-attachments/assets/075f495e-6c91-4b9a-996e-ebadfd86db66)
 
 <br>
 
@@ -28,7 +28,7 @@ All the way on the right side of the **"LAW-Cyber-Lab"** line ➜ click on ```..
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+![azure portal](https://github.com/user-attachments/assets/55241b3a-6338-42e9-890e-f69c0f027472)
 
 <br>
 
@@ -54,7 +54,7 @@ Then we'll go to the **"Data collection"** tab ➜ and check **"All Events"**
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+![azure portal](https://github.com/user-attachments/assets/27dbab3a-ab4e-4d7e-8c7d-51f0b2e04e32)
 
 <br>
 
@@ -72,7 +72,7 @@ Then we'll go to the **"Data collection"** tab ➜ and check **"All Events"**
 
 <br>
 
-Again ➜ click the 💾 **Save** button:
+Again ➜ click the 💾 **Save** button.
 
 <br>
 
@@ -86,15 +86,15 @@ Again ➜ click the 💾 **Save** button:
 
 Back to **MDC** ➜ **"Environment settings"** blade.
 
-This time for the **"Azure subsription 1"** line ➜ click on ```...``` ➜ and then **"Edit settings"**:
+This time for the **"Cyber Lab"** Subscription line ➜ click on ```...``` ➜ and then **"Edit settings"**:
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+![azure portal](https://github.com/user-attachments/assets/997c7114-f007-459a-aa1c-020ef5116616)
 
 <br>
 
-Now we'll **Turn On** MDC for **"Servers"**, **"Databases"**, **"Storage"** & **"Key Vault"**.
+Under the **"Defender Plans"** Blade ➜ we'll **Turn On** MDC for **"Servers"**, **"Databases"**, **"Storage"** & **"Key Vault"**.
 
 <br>
 
@@ -108,21 +108,35 @@ Now we'll **Turn On** MDC for **"Servers"**, **"Databases"**, **"Storage"** & **
 
 <br>
 
-Next to Databases ➜ Select Types ➜ make sure **"SQL servers on Machines"** is toggled **ON**.
-
-All else toggled **OFF** ➜  then click **"Continue"**
+![azure portal](https://github.com/user-attachments/assets/bfdebca1-ca31-49c6-88a0-3511c02c4d1a)
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+Next to **"Databases"** ➜ click on **"Select Types >"** ➜ make sure **"SQL servers on Machines"** is toggled **ON**.
+
+All else toggled **OFF** ➜ then click **"Continue"**
 
 <br>
 
-Then click on **"Settings >"** under **"Monitoring coverage"** for the **Servers**.
+![azure portal](https://github.com/user-attachments/assets/5d37e956-0721-4b59-94a3-c8e599d77a49)
 
-We'll now click on **"Edit configuration"** for the **Log Analytics agent**.
+<br>
 
-And for the **Workspace** ➜ pick our actual ```LAW-Cyber-Lab``` Workspace.
+We'll now configure **"Servers"** ➜ under the **"Monitoring coverage"** tab ➜ and click on **"Settings >"**
+
+Make sure that all the way to the right ➜ the **"Status"** for all 4 Components is toggled **ON**
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/1e299c5d-c9a4-43c7-9747-27f1caf8ec50)
+
+<br>
+
+Now still on that same page ➜ under **"Configuration"** for the **Log Analytics agent** ➜ click on **"Edit configuration"** 
+
+And for the **Workspace selection** ➜ pick our actual ```LAW-Cyber-Lab``` Workspace.
+
+<br>
 
 >   <details close> 
 >   
@@ -134,15 +148,17 @@ And for the **Workspace** ➜ pick our actual ```LAW-Cyber-Lab``` Workspace.
 > 
 >   </details>
 
+<br>
+
 Make sure you click **"Apply"** and then 💾 **Continue**:
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+![azure portal](https://github.com/user-attachments/assets/c5515754-abd1-4416-b509-40ba54a0274e)
 
 <br>
 
-After that we'll click on the 💾 **Save** button to save the **Defender plans for the Subscription**
+After that ➜ we'll click on the 💾 **Save** button to save the **Defender plans for the Subscription**
 
 <br>
 
@@ -170,6 +186,8 @@ Still inside the **"Edit settings"** for the Subscription ➜ we'll go to the **
 
 Click on the **"Log Analytics workspace"** tab ➜ and make sure **"Export enabled"** is **Turned On**:
 
+<br>
+
 >   <details close> 
 >   
 > **<summary> 💡 </summary>**
@@ -180,9 +198,15 @@ Click on the **"Log Analytics workspace"** tab ➜ and make sure **"Export enabl
 > 
 >   </details>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/cbd01204-5576-4fa0-bba3-02d0271b0b69)
+
+<br>
 
 So we'll enable ☑️ **Exported data types** for all of the following options:
+
+<br>
 
 >   <details close> 
 >   
@@ -194,11 +218,17 @@ So we'll enable ☑️ **Exported data types** for all of the following options:
 > 
 >   </details>
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/ab98095e-5298-40ae-b74f-615e9a1ffdf2)
+
+<br>
 
 For the **"Export configuration"** option let's just configure it to our **Resource group** ```RG-Cyber-Lab```
 
 And also for the **"Export target"** we'll select our **Target Workspace** ```LAW-Cyber-Lab-01```
+
+<br>
 
 >   <details close> 
 >   
@@ -208,15 +238,21 @@ And also for the **"Export target"** we'll select our **Target Workspace** ```LA
 > 
 >   </details>
 
+<br>
+
 We'll then click 💾 **Save**
 
-![azure portal](https://github.com/user-attachments/assets/ea9306fc-dea8-45d9-9a96-74da3b332516)
-
 <br>
+
+![azure portal](https://github.com/user-attachments/assets/2b3f4190-ca2f-44c2-9013-a949d787e282)
 
   </details>
 
 <h2></h2>
+
+<br>
+
+<br>
 
 <br>
 
