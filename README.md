@@ -6,7 +6,7 @@
 
 <h2 align="center"> Enable Microsoft Defender for Cloud</h2>
 
-![Banner](https://github.com/user-attachments/assets/48a4e854-204f-422e-8287-301a1f768062)
+![Banner](https://github.com/user-attachments/assets/72fb23aa-bc68-46ce-b60f-43d1cd5aa8a5)
 <br />
 <br />
 
