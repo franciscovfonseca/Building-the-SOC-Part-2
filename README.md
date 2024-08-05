@@ -6,9 +6,12 @@
 
 <h2 align="center"> Enable Microsoft Defender for Cloud</h2>
 
-![Banner](https://github.com/user-attachments/assets/72fb23aa-bc68-46ce-b60f-43d1cd5aa8a5)
+<p align="center">
+<img width="800" src="https://github.com/user-attachments/assets/72fb23aa-bc68-46ce-b60f-43d1cd5aa8a5" alt="Banner"/>
 <br />
+
 <br />
+
 
 <details close> 
 <summary> <h2>1️⃣ Enable Microsoft Defender for Cloud for Log Analytics Workspace</h2> </summary>
